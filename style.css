@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+
+body {
+  font-family: "Poiret One", sans-serif;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: 20px 20px 20px 20px;
+  width: 100%;
+}
+
+.hidden,
+.permantly-hidden {
+  display: none;
+}
+
+h1 {
+    text-align: center;
+    color: indianred;
+}
+
+.gold-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#money-results {
+    margin-left: 5px;
+}
+
+#results {
+    height: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: ivory;
+}
+
